@@ -1,0 +1,49 @@
+h1 {
+    color: black;
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 48px;
+    color: darkgray;
+  }
+  
+  .form-container {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+  }
+  
+  .form-control {
+    margin: 0 auto;
+    border-radius: 0;
+  }
+  
+  .btn-info {
+    color: yellow;
+    border-radius: 0;
+  }
+  
+  .container {
+    margin: 50px auto;
+  }
+  .container p {
+    text-align: center;
+    color: darkgray;
+    font-size: 24px;
+  }
+  
+  .inform {
+    color: lightgreen;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #locate{
+    margin: 0 auto;
+    display: block;
+  }

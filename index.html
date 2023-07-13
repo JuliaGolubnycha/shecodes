@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inner Weather</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+      h1 {
+        color: black;
+        text-align: center;
+      }
+
+      .form-control {
+        display: inline-block;
+        margin-right: 5px;
+      }
+
+      .btn-info {
+        display: inline-block;
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Weather forecast</h1>
+    <form>
+      <div class="form-container" id="search-form">
+        <input
+          type="text"
+          placeholder="Enter your city's name"
+          class="form-control"
+          id="search-input"
+        />
+        <button type="submit" class="btn btn-info" id="search-button">
+          Search
+        </button>
+      </div>
+    </form>
+    <h2>
+      The city of <span class="kyiv" id="kyiv">Kyiv</span>
+      <br />
+      <span id="zaluzh">26°C</span>
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>
+            Sun<br />
+            27°C<br />🔆
+          </p>
+        </div>
+        <div class="col">
+          <p>Mon<br />21°C<br />⛅</p>
+        </div>
+        <div class="col">
+          <p>Tue<br />26°C<br />☁</p>
+        </div>
+        <div class="col">
+          <p>Wed<br />17°C<br />🌁</p>
+        </div>
+        <div class="col">
+          <p>Thur<br />28°C<br />☔</p>
+        </div>
+        <div class="locate">
+          <button type="button" class="btn btn-info" id="locate">
+            Find me
+          </button>
+        </div>
+      </div>
+    </div>
+    <p class="position-absolute top-100 start-50 translate-middle inform">
+      Coded by Yuliia Holubnycha
+    </p>
+    <script src="src/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
