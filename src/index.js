@@ -5,7 +5,7 @@ function city(event) {
   let country_code = prompt("Enter your country's name");
   let apiKey = "ed238469f9b5e9d801834270e65449bc";
   let apiUrl =
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     city_name +
     "," +
     state_code +
