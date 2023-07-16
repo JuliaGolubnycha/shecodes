@@ -10,6 +10,20 @@ h1 {
     font-size: 48px;
     color: darkgray;
   }
+
+  .bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bottom{
+    text-align: center;
+    margin: 0 auto;
+    color: #90EE90;
+    text-decoration: none;;
+  }
   
   .form-container {
     display: flex;
